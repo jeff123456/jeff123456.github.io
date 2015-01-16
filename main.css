@@ -1,7 +1,9 @@
 h1{
 	font-weight: bold;
-	font-size: 48px;
 	}
-a{
-	font-size: 10px;
+	
+.jumbotron {
+	border-bottom: 1px #efefef;
+	background: url('http://deanclifford.info/wp-content/uploads/2013/07/toronto_night_skyline.jpg') no-repeat;
+	height: 623px
 }

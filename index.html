@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<!-- Personal CSS-->
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <html>
-<body>
-<h1>Jeff's Portal</h1>
-<p><a href="http://jeff.duckdns.org:6113">Calibre</a></p>
-<p><a href="http://jeff.duckdns.org:2345">Local Webserver</a></p>
-</body>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Jeff's Portal</h1>
+			</div>
+			<div class="tabbable">
+				<ul id="tabs" class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Test 1</a></li>
+					<li><a href="#tab2" data-toggle="tab">Test 2</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class"tab-pane active" id="tab1">
+						<p><a href="http://jeff.duckdns.org:6113">Calibre</a></p>
+						<p><a href="http://jeff.duckdns.org:2345">Local Webserver</a></p>
+					</div>
+					<div class"tab-pane" id="tab2">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
