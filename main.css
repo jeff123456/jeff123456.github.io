@@ -3,6 +3,11 @@ h1{
 	}
 	
 .jumbotron {
-	border-bottom: 1px #efefef;
+	border-style:solid;
+	margin: 100px;
+	border-width: 0px;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-color:	#585858;
 	background: #bdbdbd;
 }
